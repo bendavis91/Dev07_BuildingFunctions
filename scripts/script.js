@@ -52,7 +52,7 @@ function defaultVars() {
   setTextContentById("tiles", tiles);
   setTextByContentId("subTotal", "$" + subTotal);
   setTextContentById("shipping", "$" + shipping);
-  setTextContentById("grandTotal", grandTotal);
+  setTextContentById("grandTotal", "$" + grandTotal);
 })();
 
 document.getElementByClass("action").addEventListener("click", function(event){
